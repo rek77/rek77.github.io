@@ -1,0 +1,43 @@
+h2 {
+	font-family: Changa, sent-serif;
+	color: #162955;
+	position: fixed;
+	left:30%;
+	top: 15.5%;
+	overflow: auto;
+  	font-size: 2rem;
+}
+
+body {
+	background: url(https://images.pexels.com/photos/919606/pexels-photo-919606.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+	background: stretch;
+	display: block;
+}
+
+.button {
+	background: #162955;
+	color: white;
+	font-family: Changa, sent-serif;
+	height: 40px;
+	width: 150px;
+	position: absolute;
+	left: 45%;
+	top: 35%;
+	border-radius: 5px;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-decoration: none;
+	outline: 1px dotted;
+  	outline: 5px auto -webkit-focus-ring-color;
+  	cursor: pointer;
+  	font-size: 1rem;
+  	display: inline-block;
+}
+
+select {
+  word-wrap: normal;
+}
+
+.button:hover {
+	  background-color: rgb(30, 30, 155);
+}
